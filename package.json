@@ -1,0 +1,9 @@
+{
+  "name": "dreamdex-perps-probe",
+  "private": true,
+  "type": "module",
+  "description": "Read-only probe of dreamDEX perps on Somnia Tokyo testnet using the Somnia Markets SDK.",
+  "scripts": { "probe": "tsx src/probe.mts" },
+  "dependencies": { "@somnia-chain/markets-sdk": "0.32.1", "viem": "^2" },
+  "devDependencies": { "@types/node": "^22", "tsx": "^4", "typescript": "^5.9" }
+}
